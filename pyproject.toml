@@ -1,0 +1,10 @@
+[project]
+name = "marvindriver"
+version = "0.1.0"
+description = "基于DummyServer中间件的Marvin双臂驱动服务"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy==2.2.6",
+    "uvicorn==0.38",
+]
